@@ -1,0 +1,14 @@
+.rooms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.rooms__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 350px);
+  grid-gap: 3px;
+  margin: 58px 115px;
+  max-width: 1060px;
+}
