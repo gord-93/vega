@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/vega/static/css/main.d23e678e.css",
+    "main.js": "/vega/static/js/main.5c3d1e0d.js",
+    "static/js/787.c2fe319f.chunk.js": "/vega/static/js/787.c2fe319f.chunk.js",
+    "static/media/banner.png": "/vega/static/media/banner.860e1291114e68d2d761.png",
+    "static/media/Inter-Medium.woff?v=3.13": "/vega/static/media/Inter-Medium.cc6a88688869161eb836.woff",
+    "static/media/Inter-Black.woff?v=3.13": "/vega/static/media/Inter-Black.16792010d318c2904562.woff",
+    "static/media/Inter-Regular.woff?v=3.13": "/vega/static/media/Inter-Regular.fc49d131f795b4d48f26.woff",
+    "static/media/room-supperior.png": "/vega/static/media/room-supperior.e0d075955fe9528c82f1.png",
+    "static/media/room-lux-1x.png": "/vega/static/media/room-lux-1x.fe9b2e6e1046271287e0.png",
+    "static/media/room-lux-2x.png": "/vega/static/media/room-lux-2x.9acd9319aab9fdcf00a7.png",
+    "static/media/room-halflux-1x.png": "/vega/static/media/room-halflux-1x.6e47dece4f57ba80cc4f.png",
+    "static/media/room-half-lux-2x.png": "/vega/static/media/room-half-lux-2x.abce269c10bc0b5e2f81.png",
+    "static/media/room-standard-3x.png": "/vega/static/media/room-standard-3x.6183acf1056198bd6319.png",
+    "static/media/room-wending-half-lux.png": "/vega/static/media/room-wending-half-lux.d30aab43c14c569402ac.png",
+    "static/media/Inter-Medium.woff2?v=3.13": "/vega/static/media/Inter-Medium.5b53c519b3184a74a98c.woff2",
+    "static/media/room-wending-lux.png": "/vega/static/media/room-wending-lux.bde708eac3cad8dbe874.png",
+    "static/media/Inter-Black.woff2?v=3.13": "/vega/static/media/Inter-Black.23eb804eb49e365fa2f1.woff2",
+    "static/media/Inter-Regular.woff2?v=3.13": "/vega/static/media/Inter-Regular.2505c0d4b34ffca98f8f.woff2",
+    "static/media/room-standard-2x.png": "/vega/static/media/room-standard-2x.6c3159acccecbfa20026.png",
+    "static/media/logo.svg": "/vega/static/media/logo.81e8e12db4031a3734469f39c213b925.svg",
+    "static/media/logo-white.svg": "/vega/static/media/logo-white.4ab14bfac4382ee235927c0813b407a7.svg",
+    "static/media/logo-place-banner.svg": "/vega/static/media/logo-place-banner.6aaf37ca29cb5437b3ec8c7b265feaed.svg",
+    "static/media/test.png": "/vega/static/media/test.2d820f95c72608dcc4c4.png",
+    "index.html": "/vega/index.html",
+    "main.d23e678e.css.map": "/vega/static/css/main.d23e678e.css.map",
+    "main.5c3d1e0d.js.map": "/vega/static/js/main.5c3d1e0d.js.map",
+    "787.c2fe319f.chunk.js.map": "/vega/static/js/787.c2fe319f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d23e678e.css",
+    "static/js/main.5c3d1e0d.js"
+  ]
+}
