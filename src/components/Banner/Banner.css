@@ -2,7 +2,7 @@
   width: 100%;
   /* height: 647px; */
   height: 100vh;
-  background-image: url(../../images/banner.png);
+  background-image: url(../../images/Photos/DSC_3245.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -10,13 +10,13 @@
 
 .banner__container {
   z-index: 3;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.5);
   width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   position: relative;
 }
 

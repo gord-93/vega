@@ -12,7 +12,6 @@ import './App.css';
 function App() {
   return (
     <div className="app">
-      <Header />
       <Banner />
       <Rooms roomsArray={roomsArray}/>
       <Info />
