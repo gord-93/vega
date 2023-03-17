@@ -1,4 +1,4 @@
-import logo from '../../images/logo.svg';
+// import logo from '../../images/logo.svg';
 import map from '../../images/map.svg'
 
 function Header() {

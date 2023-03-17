@@ -1,48 +1,43 @@
 .room {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-  cursor: pointer;
-}
-
-.room__image {
-  grid-row: 1/2;
-  grid-column: 1/2;
-  object-fit: contain;
+  
 }
 
 .room__container {
-  grid-row: 1/2;
-  grid-column: 1/2;
   background-color: rgba(0, 0, 0, 0.4);
+  position: relative;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
-.room__title {
-  color: white;
-  width: 146px;
-  text-align: center;
-  font-size: 18px;
-  margin: 0;
-  border-bottom-width: 2px;
-  border-bottom-style: ridge;
-  padding-bottom: 10px;
-  box-sizing: border-box;
-}
-
-.room__container:hover {
-  background-color: rgba(0, 0, 0, 0.9);
+.room__image {
+  
 }
 
 .room__price {
-  color: rgb(252, 252, 252);
-  /* background-color: rgb(215, 202, 186); */
-  padding: 10px 40px;
-  border-radius: 20px;
-  margin: 10px auto 0;
-  font-size: 20px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  text-align: center;
+  margin: 0;
+  font-size: 15px;
   font-weight: 500;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+
+.room__title {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: 18px;
+  margin: 10px auto;
+  border-bottom: 1px solid white;
+  width: max-content;
+}
+
+.room:hover {
+  cursor: pointer;
+}
+
+.room:hover .room__title {
+  border-bottom: 1px solid black;
 }

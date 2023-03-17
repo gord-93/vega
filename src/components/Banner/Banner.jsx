@@ -1,4 +1,4 @@
-import logo from '../../images/logo-place-banner.svg';
+// import logo from '../../images/logo-place-banner.svg';
 import Header from '../Header/Header';
 import PhoneLine from '../PhoneLine/PhoneLine';
 import Registration from '../Registration/Registration';

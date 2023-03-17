@@ -1,25 +1,12 @@
 .footer {
+  font-size: 12px;
   width: 100%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: rgba(128, 128, 128, 0.213);
-}
-
-.footer__container {
-  margin: 20px 115px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.footer__logo {
-  width: 150px;
-  height: 73px;
+  background-color: rgba(169, 169, 169, 0.213);
 }
 
 .footer__text {
-  margin: 10px 40px;
+  margin: 12px auto;
   text-align: center;
   color: gray;
 }

@@ -1,10 +1,5 @@
 @import url(./vendor/normalize.css);
 @import url(./vendor/fonts/Inter/inter.css);
-body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 @import url(./components/App/App.css);
 @import url(./components/Header/Header.css);
 @import url(./components/Banner/Banner.css);
@@ -15,3 +10,11 @@ body {
 @import url(./components/Info/Info.css);
 @import url(./components/Footer/Footer.css);
 @import url(./components/PhoneLine/PhoneLine.css);
+@import url(./components/Gallery/Gallery.css);
+@import url(./components/GalleryPhoto/GalleryPhoto.css);
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

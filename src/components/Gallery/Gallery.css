@@ -1,18 +1,18 @@
-.rooms {
+.gallery {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
 }
 
-.rooms__title {
+.gallery__title {
   margin: 40px auto 0;
   font-size: 28px;
   font-weight: bolder;
   text-align: center;
 }
 
-.rooms__container {
+.gallery__container {
   width: 90%;
   max-width: 1080px;
   display: grid;
