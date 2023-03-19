@@ -8,6 +8,7 @@ import Gallery from '../Gallery/Gallery';
 import RoomDescription from '../RoomDescription/RoomDescription';
 import { roomsArray } from '../utils/roomsArray';
 import './App.css';
+import Review from '../Review/Review';
 
 
 
@@ -23,6 +24,7 @@ function App() {
             <Rooms roomsArray={roomsArray}/>
             <Info />
             <Contacts />
+            <Review />
           </>
         }>
         </Route>

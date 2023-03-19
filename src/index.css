@@ -15,7 +15,7 @@
 
 @import url(./components/RoomDescription/RoomDescription.css);
 @import url(./components/Navlink/Navlink.css);
-
+@import url(./components/Review/Review.css);
 body {
   display: flex;
   flex-direction: column;
