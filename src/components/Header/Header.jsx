@@ -1,4 +1,5 @@
 // import logo from '../../images/logo.svg';
+import { NavLink } from 'react-router-dom';
 import map from '../../images/map.svg'
 
 function Header() {
@@ -14,7 +15,7 @@ function Header() {
           </div>
         </div>
         <div className='header__links'>
-          <a href='#about' className='header__link'>О нас</a>
+          <NavLink to="/photo" className='header__link'>Фотогалерея</NavLink>
           <a href='#rooms' className='header__link'>Номерной фонд</a>
           <a href='#registration' className='header__link'>Бронирование</a>
           <a href='#contacts' className='header__link'>Контакты</a>

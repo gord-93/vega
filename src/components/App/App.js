@@ -1,3 +1,4 @@
+import { Route, Routes } from 'react-router-dom';
 import Banner from '../Banner/Banner';
 import Contacts from '../Contacts/Contacts';
 import Footer from '../Footer/Footer';
@@ -10,14 +11,22 @@ import { roomsArray } from '../utils/roomsArray';
 import './App.css';
 
 
+
 function App() {
   return (
     <div className="app">
       <Banner />
-      <Rooms roomsArray={roomsArray}/>
-      <Gallery photosArray={roomsArray}/> 
-      <Info />
-      <Contacts />
+      <Routes>
+        <Route path="/photo" element={<Gallery photosArray={roomsArray}/> }/>
+        <Route path='/' element={
+          <>
+            <Rooms roomsArray={roomsArray}/>
+            <Info />
+            <Contacts />
+          </>
+        }>
+        </Route>
+      </Routes>
       <Footer />
     </div>
   );
