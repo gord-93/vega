@@ -4,11 +4,11 @@ function Rooms(props) {
   return (
     <section className="rooms">
       <h1 className="rooms__title">
-        Наши номера
+        Номерной фонд
       </h1>
       <div className="rooms__container">
         {props.roomsArray.map((room)=> {
-          return(<Room room={room} key={room._id}/>)
+          return(<Room room={room} key={room._id} />)
         })}
       </div>
     </section>

@@ -1,0 +1,5 @@
+.gallery-photo__image {
+  width: 350px;
+  height: 232px;
+  display: flex;
+}

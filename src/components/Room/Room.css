@@ -9,7 +9,8 @@
 }
 
 .room__image {
-  
+  width: 350px;
+  height: 232px;
 }
 
 .room__price {

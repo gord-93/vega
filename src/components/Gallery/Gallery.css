@@ -17,7 +17,7 @@
   max-width: 1080px;
   display: grid;
   grid-template-columns: repeat(auto-fit, 350px);
-  gap: 20px 5px;
+  gap: 5px;
   margin: 40px auto;
   justify-content: center;
 }
