@@ -44,3 +44,29 @@
   cursor: pointer;
   box-shadow: 0px 0px 1px rgba(12, 12, 12, 0.726);
 }
+
+.banner__text-container {
+  width: 80%;
+  color: white;
+}
+
+.banner__title {
+  background-color: rgba(34, 34, 34, 0.3);
+  padding: 30px 0 30px 30px;
+  font-size: 36px;
+}
+
+.banner__ul {
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.banner__li {
+  font-size: 24px;
+  list-style-image: url(../../images/Star_full.svg);
+  padding-left: 18px;
+  margin-left: 30px;
+}
