@@ -1,0 +1,39 @@
+.room-popup {
+  width: 100vw;
+  height: 100vh;
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.room-popup__container {
+  background-color: white;
+  margin: auto;
+  max-width: 1080px;
+  display: flex;
+  height: fit-content;
+  z-index: 11;
+}
+
+.room-popup__info {
+  margin: 0 0 0 10px;
+}
+
+.room-popup__image {
+  width: 800px;
+}
+
+.room-popup__title {
+  font-size: 25px;
+}
+
+.room-popup_visible {
+  display: flex;
+}
+
+.room-popup:hover {
+  cursor: pointer;
+}

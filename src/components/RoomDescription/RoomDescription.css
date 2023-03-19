@@ -1,0 +1,55 @@
+.room-description {
+  width: 100%;
+  bottom: 20px auto;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.room-description__info {
+  max-width: 250px;
+}
+
+.room-description__photo {
+  width: 600px;
+}
+
+.room-description__photo-elem {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 5px 0 0;
+}
+
+.room-description__photo-elem:last-of-type {
+  margin: 0;
+}
+
+.room-description__price {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.room-description__law {
+  color: rgb(139, 139, 139);
+  font-size: 14px;
+}
+
+.room-description__things {
+  padding-left: 25px;
+}
+
+.room-description__things-label {
+  margin: 30px 0 0 0;
+  font-size: 25px;
+  font-weight: 500;
+  border-bottom: 2px solid black;
+  width: fit-content;
+}
+
+.room-description__thing {
+  margin-bottom: 5px;
+}
+
+.room-description__thing:last-of-type {
+  margin-bottom: 0;
+}
