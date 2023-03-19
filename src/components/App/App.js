@@ -1,3 +1,4 @@
+import { Route, Routes } from 'react-router-dom';
 import Banner from '../Banner/Banner';
 import Contacts from '../Contacts/Contacts';
 import Footer from '../Footer/Footer';
@@ -15,11 +16,18 @@ function App() {
   return (
     <div className="app">
       <Banner />
-      <RoomDescription />
-      {/*<Rooms roomsArray={roomsArray} />
-      <Gallery photosArray={roomsArray}/> 
-      <Info />
-      <Contacts />*/}
+      <Routes>
+        <Route path="/photo" element={<Gallery photosArray={roomsArray}/> }/>
+        <Route path='/' element={
+          <>
+            <Rooms roomsArray={roomsArray}/>
+            <Info />
+            <Contacts />
+          </>
+        }>
+        </Route>
+        <Route path="/description" element={<RoomDescription />} />
+      </Routes>
       <Footer />
     </div>
   );

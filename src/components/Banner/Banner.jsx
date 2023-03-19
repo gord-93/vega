@@ -9,9 +9,15 @@ function Banner() {
       <div className="banner__container">
         <PhoneLine />
         <Header />
-        {/* <img className="banner__logo" src={logo} alt="логотип гостиницы Вега" /> */}
-        {/* <h1 className='banner__text'>Добро пожаловать в гостиницу "ВЕГА ОТЕЛЬ" города Наро-Фоминск, Московская область</h1> */}
-        {/* <button className='banner__button'>Смотреть номера</button> */}
+        <div className='banner__text-container'>
+          <h2 className='banner__title'>Уютный отель в Наро-Фоминске</h2>
+          <ul className='banner__ul'>
+            <li className='banner__li'>Внимательный и доброжелательный персонал</li>
+            <li className='banner__li'>Удобное расположение вблизи Ж/Д вокзала</li>
+            <li className='banner__li'>Номера от 2600&#x20bd; до 5000&#x20bd;</li>
+            <li className='banner__li'>Бесплатный Wi-Fi</li>
+          </ul>
+        </div>
         <Registration />
       </div>
     </section>
