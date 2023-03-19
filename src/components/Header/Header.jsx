@@ -8,7 +8,7 @@ function Header() {
       {/* <img className='header__logo' src={logo} alt="логотип гостиницы Вега" /> */}
       <div className='header__container'>
         <div className='header__logo-container'>
-          <h1 className='header__title'>Отель Вега</h1>
+          <NavLink to="/" className="navlink"><h1 className='header__title'>Отель Вега</h1></NavLink>
           <div className='header__adress-container'>
             <img className='header__map' src={map} alt="*" />
             <p className='header__adress'>г.Наро-Фоминск ул.Московская, д.6</p>
