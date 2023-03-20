@@ -1,5 +1,5 @@
-.room {
-  
+.room__link {
+  text-decoration: none;
 }
 
 .room__container {
@@ -33,6 +33,7 @@
   margin: 10px auto;
   border-bottom: 1px solid white;
   width: max-content;
+  font-weight: 400;
 }
 
 .room:hover {

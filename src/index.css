@@ -12,9 +12,10 @@
 @import url(./components/PhoneLine/PhoneLine.css);
 @import url(./components/Gallery/Gallery.css);
 @import url(./components/GalleryPhoto/GalleryPhoto.css);
-
+@import url(./components/Equals/Equals.css);
 @import url(./components/RoomDescription/RoomDescription.css);
 @import url(./components/Navlink/Navlink.css);
+@import url(./components/PhotoPopup/PhotoPopup.css);
 
 body {
   display: flex;

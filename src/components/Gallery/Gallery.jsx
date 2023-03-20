@@ -8,7 +8,7 @@ function Gallery(props) {
       </h1>
       <div className="gallery__container">
         {props.photosArray.map((photo) => {
-          return (<GalleryPhoto photo={photo} key={photo._id} />)
+          return (<GalleryPhoto photo={photo} key={photo._id} handlerChangePopupInfo={props.handlerChangePopupInfo} />)
         })}
       </div>
     </section>
