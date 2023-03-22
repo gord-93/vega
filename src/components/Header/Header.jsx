@@ -16,9 +16,9 @@ function Header() {
         </div>
         <div className='header__links'>
           <NavLink to="/photo" className='header__link'>Фотогалерея</NavLink>
-          <a href='#rooms' className='header__link'>Номерной фонд</a>
+          <NavLink to='/fund' className='header__link'>Номерной фонд</NavLink>
           <a href='#registration' className='header__link'>Бронирование</a>
-          <a href='#contacts' className='header__link'>Контакты</a>
+          <NavLink to='/contacts' className='header__link'>Контакты</NavLink>
         </div>
       </div>
     </header>
