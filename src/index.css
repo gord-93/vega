@@ -15,8 +15,10 @@
 @import url(./components/Equals/Equals.css);
 @import url(./components/RoomDescription/RoomDescription.css);
 @import url(./components/Navlink/Navlink.css);
+
 @import url(./components/PhotoPopup/PhotoPopup.css);
 
+@import url(./components/Review/Review.css);
 body {
   display: flex;
   flex-direction: column;

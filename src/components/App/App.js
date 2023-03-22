@@ -11,6 +11,7 @@ import Equals from '../Equals/Equals';
 import PhotoPopup from '../PhotoPopup/PhotoPopup';
 import { roomsArray } from '../utils/roomsArray';
 import './App.css';
+import Review from '../Review/Review';
 
 
 

@@ -3,6 +3,7 @@
   width: 100%;
   display: flex;
   background-color: rgba(169, 169, 169, 0.213);
+  margin: 100px auto 0;
 }
 
 .footer__text {

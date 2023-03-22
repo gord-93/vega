@@ -1,8 +1,11 @@
+
 import { NavLink } from 'react-router-dom';
+
 
 function Room(props) {
   return (
     <div className="room">
+
       <NavLink to='/description' className='room__link'>
         <div className="room__container">
           <img className="room__image" src={props.room.img} alt={props.room.title} />
