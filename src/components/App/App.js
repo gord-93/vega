@@ -24,7 +24,6 @@ function App() {
             <Rooms roomsArray={roomsArray}/>
             <Info />
             <Contacts />
-            <Review />
           </>
         }>
         </Route>
