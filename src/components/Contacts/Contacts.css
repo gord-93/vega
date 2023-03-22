@@ -6,23 +6,25 @@
 
 .contacts__contact-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-between;
   margin-bottom: 20px;
+  align-items: center;
 }
 
 .contacts__container {
   margin: 95px 115px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .contacts__item {
   display: flex;
   flex-direction: column;
-  outline: 1px solid red;
+  align-items: flex-start;
+  margin-right: 50px;
 }
 
 .contacts__title {
