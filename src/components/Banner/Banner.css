@@ -1,6 +1,6 @@
 .banner {
   width: 100%;
-  min-height: 100vh;
+  height: fit-content;
   background-image: url(../../images/Photos/DSC_3245.jpeg);
   background-position: center;
   background-size: cover;
@@ -76,6 +76,10 @@
 }
 
 @media screen and ( max-width: 1279px ) {
+  .banner {
+    background-position: 80%;
+  }
+
   .banner__title {
     font-size: 32px;
   }
@@ -86,6 +90,10 @@
 }
 
 @media screen and ( max-width: 767px ) {
+  .banner {
+    background-position: 70%;
+  }
+
   .banner__title {
     font-size: 25px;
   }

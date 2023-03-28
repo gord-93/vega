@@ -1,13 +1,11 @@
 .review {
-
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .review__container {
   width: 500px;
-  height:630px;
+  height:100%;
   overflow:hidden;
   position:relative;
 
@@ -40,4 +38,16 @@
   white-space:nowrap;
   padding:0 16px;
   box-sizing:border-box;
+}
+
+@media screen and ( max-width:1279px ) {
+  .review {
+    height: 500px;
+  }
+}
+
+@media screen and ( max-width:767px ) {
+  .review__container {
+    width: 360px;
+  }
 }

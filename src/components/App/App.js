@@ -40,7 +40,7 @@ function App() {
   return (
     <div className='app'>
       <Banner />
-      {/*<Routes>
+      <Routes>
         <Route path="/photo" element={<>
           <Gallery photosArray={roomsArray} handlerChangePopupInfo={handlerChangePopupInfo} />
           <PhotoPopup popupInfo={popupInfo} handlerChangePopupInfo={handlerChangePopupInfo} /> 
@@ -58,7 +58,7 @@ function App() {
         }>
         </Route>
       </Routes>
-      <Footer />*/}
+      <Footer />
     </div>
   );
 }

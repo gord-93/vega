@@ -15,6 +15,7 @@
 .equals__subtitle {
   font-size: 25px;
   font-weight: 600;
+  margin: 0;
 }
 
 .equals__container {
@@ -30,7 +31,8 @@
 }
 
 .equals__info {
-  margin: 0 20px;
+  width: 500px;
+  margin: auto;
 }
 
 .equals__photo {
@@ -38,7 +40,9 @@
 }
 
 .equals__list {
+  margin: 20px 0 0 0;
   padding: 0 0 0 20px;
+  width: fit-content;
 }
 
 .equals__elem {
@@ -46,6 +50,72 @@
   margin: 0 0 10px 0;
 }
 
+.equals__elem:last-of-type {
+  margin: 0;
+}
+
 .equals__elem-text {
   margin: 0 0 0 10px;
+}
+
+@media screen and ( max-width:1279px ) {
+  .equals__title {
+    font-size: 27px;
+    width: 70%;
+  }
+
+  .equals__container {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+  }
+
+  .equals__subtitle {
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .equals__info {
+    width: 400px;
+    margin: 50px auto;
+  }
+}
+
+@media screen and ( max-width:767px ) {
+  .equals__title {
+    font-size: 18px;
+    width: 70%;
+  }
+
+  .equals__container {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+  }
+
+  .equals__container:last-of-type {
+    flex-direction: column-reverse;
+  }
+
+  .equals__subtitle {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .equals__info {
+    width: 360px;
+    margin: 20px auto;
+  }
+
+  .equals__photo {
+    width: 360px;
+  }
+
+  .equals__elem-text {
+    font-size: 14px;
+  }
+
+  .equals__title {
+    font-size: 16px;
+  }
 }
