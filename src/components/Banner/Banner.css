@@ -1,7 +1,6 @@
 .banner {
   width: 100%;
-  /* height: 647px; */
-  height: 100vh;
+  min-height: 100vh;
   background-image: url(../../images/Photos/DSC_3245.jpeg);
   background-position: center;
   background-size: cover;
@@ -52,21 +51,46 @@
 
 .banner__title {
   background-color: rgba(34, 34, 34, 0.3);
-  padding: 30px 0 30px 30px;
+  padding: 15px;
   font-size: 36px;
 }
 
 .banner__ul {
-  height: 150px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: space-between;
+  padding: 0;
 }
 
 .banner__li {
   font-size: 24px;
-  list-style-image: url(../../images/Star_full.svg);
+  list-style-type: '\2713';
   padding-left: 18px;
   margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.banner__li:last-of-type {
+  margin-bottom: 0;
+}
+
+@media screen and ( max-width: 1279px ) {
+  .banner__title {
+    font-size: 32px;
+  }
+
+  .banner__li {
+    font-size: 20px;
+  }
+}
+
+@media screen and ( max-width: 767px ) {
+  .banner__title {
+    font-size: 25px;
+  }
+
+  .banner__li {
+    font-size: 18px;
+  }
 }
