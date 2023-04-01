@@ -21,3 +21,9 @@
   margin: 40px auto;
   justify-content: center;
 }
+
+@media screen and ( max-width:767px ) {
+  .rooms__title {
+    font-size: 25px;
+  }
+}

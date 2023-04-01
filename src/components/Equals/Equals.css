@@ -83,7 +83,7 @@
 
 @media screen and ( max-width:767px ) {
   .equals__title {
-    font-size: 18px;
+    font-size: 25px;
     width: 70%;
   }
 
@@ -113,9 +113,5 @@
 
   .equals__elem-text {
     font-size: 14px;
-  }
-
-  .equals__title {
-    font-size: 16px;
   }
 }
