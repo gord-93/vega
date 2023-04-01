@@ -49,14 +49,9 @@
   text-decoration: underline;
 }
 
-.contacts__text_mod_address {
-  width: 500px;
-}
-
 .contacts__item_mod_address {
   display: flex;
   flex-direction: column;
-  width: 500px;
 }
 
 .contacts__map {
@@ -72,5 +67,24 @@
 
   .contacts__container {
     margin: 0 0 30px ;
+  }
+}
+
+@media screen and ( max-width: 767px ) {
+  .contacts__container {
+    max-width: 340px;
+  }
+
+  .contacts__map {
+    max-width: 340px;
+    height: 200px;
+  }
+
+  .contacts__title {
+    font-size: 26px;
+  }
+
+  .contacts__text {
+    max-width: 340px;
   }
 }
