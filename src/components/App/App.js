@@ -16,7 +16,6 @@ import Review from '../Review/Review';
 
 
 function App() {
-
   const [popupInfo, changePopupInfo] = useState({
     isOpen: false,
     imgSrc: '#',
@@ -36,6 +35,8 @@ function App() {
       imgTitle: imgTitle
     })
   }
+
+
 
   return (
     <div className='app'>

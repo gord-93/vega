@@ -7,7 +7,13 @@
 }
 
 .footer__text {
-  margin: 12px auto;
+  margin: 10px;
   text-align: center;
   color: gray;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__text {
+    font-size: 10px;
+  }
 }
