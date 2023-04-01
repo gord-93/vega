@@ -17,3 +17,10 @@
 .photo-popup_visible {
   display: flex;
 }
+
+@media screen and ( max-width:1079px ) {
+  .photo-popup__image {
+    width: 100vw;
+  }
+}
+
