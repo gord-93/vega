@@ -1,3 +1,4 @@
+import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import { useState } from 'react';
 import Banner from '../Banner/Banner';
@@ -14,35 +15,44 @@ import './App.css';
 
 
 function App() {
-  const [popupInfo, changePopupInfo] = useState({
-    isOpen: false,
-    imgSrc: '#',
-    imgTitle: ''
+  const [popupIsOpen, changePopupIsOpen] = useState(false);
+  const [popupInfo, changePopupInfo] = useState({  
+    img: '#',
+    title: 'photo should be here'
   })
 
-  const handlerChangePopupInfo = (imgSrc, imgTitle) => {
-    return popupInfo.isOpen ? 
-    changePopupInfo({
-      isOpen: false,
-      imgSrc: '#',
-      imgTitle: ''
-    }) :
-    changePopupInfo({
-      isOpen: true,
-      imgSrc: imgSrc,
-      imgTitle: imgTitle
-    })
+  const handlerChangePopupInfo = (photo) => changePopupInfo(photo);
+
+  const openPopup = (photo) => {
+    changePopupIsOpen(true);
+    changePopupInfo(photo);
+    return;
   }
 
-
+  const closePopup = () => {
+    changePopupIsOpen(false);
+    changePopupInfo({
+      img: '#',
+      title: 'photo should be here'
+    })
+  }
 
   return (
     <div className='app'>
       <Banner />
       <Routes>
         <Route path="/photo" element={<>
-          <Gallery photosArray={roomsArray} handlerChangePopupInfo={handlerChangePopupInfo} />
-          <PhotoPopup popupInfo={popupInfo} handlerChangePopupInfo={handlerChangePopupInfo} /> 
+          <Gallery 
+            photosArray={roomsArray}
+            openPopup={openPopup}
+          />
+          <PhotoPopup 
+            photosArray={roomsArray}
+            popupInfo={popupInfo}
+            popupIsOpen={popupIsOpen}
+            handlerChangePopupInfo={handlerChangePopupInfo}
+            closePopup={closePopup}
+          /> 
         </>}/>
         <Route path="/fund" element={<Rooms roomsArray={roomsArray}/>}/>
         <Route path="/description" element={<RoomDescription />} />

@@ -6,7 +6,6 @@ function Header() {
 
   return (
     <header className="header">
-      {/* <img className='header__logo' src={logo} alt="логотип гостиницы Вега" /> */}
       <div className='header__container'>
         <div className='header__logo-container'>
           <NavLink to="/" className="header__title-link"><h1 className='header__title'>Отель Вега</h1></NavLink>

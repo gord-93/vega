@@ -9,6 +9,57 @@
   left: 0;
 }
 
+.photo-popup:hover {
+  cursor: pointer;
+}
+
+.photo-popup__preview-button {
+  position: absolute;
+  left: 30px;
+  top: calc(50vh - 10px);
+  width: 10px;
+  height: 40px;
+  border: none;
+  background: none;
+  background-image: url(../../images/icons/preview-button.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.photo-popup__next-button {
+  position: absolute;
+  right: 30px;
+  top: calc(50vh - 10px);
+  width: 10px;
+  height: 40px;
+  border: none;
+  background: none;
+  background-image: url(../../images/icons/next-button.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.photo-popup__close-button {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: none;
+  background-image: url(../../images/icons/close-button.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.photo-popup__next-button:hover, .photo-popup__preview-button:hover, .photo-popup__close-button:hover {
+  cursor: pointer;
+}
+
+.photo-popup__hidden-button {
+  display: none;
+}
+
 .photo-popup__image {
   margin: auto;
   width: 1080px;

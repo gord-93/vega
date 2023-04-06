@@ -1,5 +1,3 @@
-import GalleryPhoto from '../GalleryPhoto/GalleryPhoto';
-
 function Gallery(props) {
   return (
     <section className="gallery">
@@ -8,7 +6,11 @@ function Gallery(props) {
       </h1>
       <div className="gallery__container">
         {props.photosArray.map((photo) => {
-          return (<GalleryPhoto photo={photo} key={photo._id} handlerChangePopupInfo={props.handlerChangePopupInfo} />)
+          return (
+            <div className="gallery__photo" key={photo._id} onClick={() => props.openPopup(photo)}>
+              <img className="gallery__photo-image" src={photo.img} alt={photo.title} />
+            </div>
+          )
         })}
       </div>
     </section>

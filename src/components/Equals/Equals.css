@@ -47,11 +47,11 @@
 
 .equals__elem {
   list-style-type: '\2713';
-  margin: 0 0 10px 0;
+  margin: 0 10px 10px;
 }
 
 .equals__elem:last-of-type {
-  margin: 0;
+  margin: 0 10px 0;
 }
 
 .equals__elem-text {

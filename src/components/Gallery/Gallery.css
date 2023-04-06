@@ -21,3 +21,18 @@
   margin: 40px auto;
   justify-content: center;
 }
+
+.gallery__photo {
+  width: 350px;
+  height: 232px;
+  display: flex;
+}
+
+.gallery__photo:hover {
+  cursor: pointer;
+}
+
+.gallery__photo-image {
+  width: 100%;
+  height: 100%;
+}
