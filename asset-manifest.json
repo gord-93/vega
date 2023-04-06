@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/vega/static/css/main.eaaaa399.css",
-    "main.js": "/vega/static/js/main.e16c7c90.js",
+    "main.css": "/vega/static/css/main.c92df3c4.css",
+    "main.js": "/vega/static/js/main.6c8f67b4.js",
     "static/js/787.c2fe319f.chunk.js": "/vega/static/js/787.c2fe319f.chunk.js",
     "static/media/DSC_3245.jpeg": "/vega/static/media/DSC_3245.887cc78f5f8d7f1c4ae5.jpeg",
     "static/media/1.jpg": "/vega/static/media/1.d5d522f7d3b1b3b03ed5.jpg",
@@ -19,14 +19,17 @@
     "static/media/Inter-Regular.woff2?v=3.13": "/vega/static/media/Inter-Regular.2505c0d4b34ffca98f8f.woff2",
     "static/media/test.png": "/vega/static/media/test.2d820f95c72608dcc4c4.png",
     "static/media/map.svg": "/vega/static/media/map.c5f44dc3c7247547fcd44cb4b6a4fd2d.svg",
+    "static/media/close-button.svg": "/vega/static/media/close-button.53763039c47866166500.svg",
     "index.html": "/vega/index.html",
+    "static/media/preview-button.svg": "/vega/static/media/preview-button.76ca5678e1050a507fb3.svg",
+    "static/media/next-button.svg": "/vega/static/media/next-button.118acd33fc307257249d.svg",
     "static/media/calendare.svg": "/vega/static/media/calendare.f12f01c462e065c19507595280064b3d.svg",
-    "main.eaaaa399.css.map": "/vega/static/css/main.eaaaa399.css.map",
-    "main.e16c7c90.js.map": "/vega/static/js/main.e16c7c90.js.map",
+    "main.c92df3c4.css.map": "/vega/static/css/main.c92df3c4.css.map",
+    "main.6c8f67b4.js.map": "/vega/static/js/main.6c8f67b4.js.map",
     "787.c2fe319f.chunk.js.map": "/vega/static/js/787.c2fe319f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eaaaa399.css",
-    "static/js/main.e16c7c90.js"
+    "static/css/main.c92df3c4.css",
+    "static/js/main.6c8f67b4.js"
   ]
 }
