@@ -3,7 +3,6 @@ import { NavLink } from 'react-router-dom';
 import map from '../../images/map.svg'
 
 function Header() {
-
   return (
     <header className="header">
       <div className='header__container'>
@@ -18,7 +17,7 @@ function Header() {
           <NavLink to="/" className='header__link'>Главная</NavLink>
           <NavLink to="/photo" className='header__link'>Фотогалерея</NavLink>
           <NavLink to='/fund' className='header__link'>Номерной фонд</NavLink>
-          <a href='#registration' className='header__link'>Бронирование</a>
+          <p className='header__link header__link_disable'>Бронирование</p>
           <NavLink to='/contacts' className='header__link'>Контакты</NavLink>
         </div>
       </div>

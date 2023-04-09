@@ -50,6 +50,7 @@
   background-image: url(../../images/icons/close-button.svg);
   background-position: center;
   background-repeat: no-repeat;
+  padding: 0;
 }
 
 .photo-popup__next-button:hover, .photo-popup__preview-button:hover, .photo-popup__close-button:hover {
@@ -75,3 +76,17 @@
   }
 }
 
+@media screen and ( max-width:767px ) {
+  .photo-popup__preview-button {
+    left: 10px;
+  }
+
+  .photo-popup__next-button {
+    right: 10px;
+  }
+
+  .photo-popup__close-button {
+    top: 10px;
+    right: 10px;
+  }
+}

@@ -1,6 +1,6 @@
 import React from 'react';
-import { Route, Routes } from 'react-router-dom';
-import { useState } from 'react';
+import { Route, Routes, useLocation } from 'react-router-dom';
+import { useState, useEffect, useRef } from 'react';
 import Banner from '../Banner/Banner';
 import Contacts from '../Contacts/Contacts';
 import Footer from '../Footer/Footer';
@@ -15,11 +15,22 @@ import './App.css';
 
 
 function App() {
+  const location = useLocation();
+  const bannerRef = useRef(null);
+  const [bannerHeight, setBannerHeight] = useState(0);
   const [popupIsOpen, changePopupIsOpen] = useState(false);
   const [popupInfo, changePopupInfo] = useState({  
     img: '#',
     title: 'photo should be here'
-  })
+  });
+
+  useEffect(() => setBannerHeight(bannerRef.current.clientHeight), [])
+  useEffect(() => window.scrollTo({
+    top: bannerHeight,
+    left: 0,
+    behavior: 'smooth'
+  }), [location, bannerHeight]);
+
 
   const handlerChangePopupInfo = (photo) => changePopupInfo(photo);
 
@@ -27,7 +38,7 @@ function App() {
     changePopupIsOpen(true);
     changePopupInfo(photo);
     return;
-  }
+  };
 
   const closePopup = () => {
     changePopupIsOpen(false);
@@ -35,11 +46,11 @@ function App() {
       img: '#',
       title: 'photo should be here'
     })
-  }
+  };
 
   return (
     <div className='app'>
-      <Banner />
+      <Banner bannerRef={bannerRef} />
       <Routes>
         <Route path="/photo" element={<>
           <Gallery 

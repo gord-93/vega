@@ -41,9 +41,8 @@
   font-size: 18px;
   font-weight: 900;
   text-decoration: none;
-
   margin: 0 27px 0 0;
-  border: 1px solid transparent;
+  border-bottom: 1px solid transparent;
   padding-bottom: 3px;
 }
 
@@ -57,6 +56,15 @@
 
 .header__link.active {
   border-bottom: 1px solid rgba(255, 255, 255, 0.726);
+}
+
+.header__link_disable {
+  cursor: default;
+  color: rgba(199, 199, 199, 0.9);
+}
+
+.header__link_disable:hover {
+  border-bottom: 1px solid transparent;
 }
 
 .header__title {

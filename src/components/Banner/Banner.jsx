@@ -3,9 +3,9 @@ import Header from '../Header/Header';
 import PhoneLine from '../PhoneLine/PhoneLine';
 import Registration from '../Registration/Registration';
 
-function Banner() {
+function Banner(props) {
   return (
-    <section className="banner">
+    <section className="banner" ref={props.bannerRef}>
       <div className="banner__container">
         <PhoneLine />
         <Header />

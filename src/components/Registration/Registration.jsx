@@ -7,7 +7,7 @@ function Registration() {
         <input className="registration__input" type="text" placeholder="До" />
         <input className="registration__input" type="text" placeholder="Гости"/>
       </div>
-      <button className="registration__button">забронировать</button>
+      <button className="registration__button" disabled>забронировать</button>
     </section>
   )
 }
