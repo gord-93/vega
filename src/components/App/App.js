@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Routes, useLocation } from 'react-router-dom';
+import { Route, Routes, useLocation, useNavigate } from 'react-router-dom';
 import { useState, useEffect, useRef } from 'react';
 import Banner from '../Banner/Banner';
 import Contacts from '../Contacts/Contacts';
@@ -15,9 +15,11 @@ import './App.css';
 
 
 function App() {
+  let navigate = useNavigate();
   const location = useLocation();
   const bannerRef = useRef(null);
   const [bannerHeight, setBannerHeight] = useState(0);
+  const [selectedRoomFull, setSelectedRoomFull] = React.useState({});
   const [popupIsOpen, changePopupIsOpen] = useState(false);
   const [popupInfo, changePopupInfo] = useState({  
     img: '#',
@@ -31,6 +33,11 @@ function App() {
     behavior: 'smooth'
   }), [location, bannerHeight]);
 
+  const handleOpenRoomDescription = (room) => {
+    navigate('/description/' + room._id);
+    setSelectedRoomFull(room);
+    
+  }
 
   const handlerChangePopupInfo = (photo) => changePopupInfo(photo);
 
@@ -65,12 +72,12 @@ function App() {
             closePopup={closePopup}
           /> 
         </>}/>
-        <Route path="/fund" element={<Rooms roomsArray={roomsArray}/>}/>
-        <Route path="/description" element={<RoomDescription />} />
+        <Route path="/fund" element={<Rooms roomsArray={roomsArray} onRoomClick={handleOpenRoomDescription}/>}/>
+        <Route path="/description/:_id" element={<RoomDescription room={selectedRoomFull} />} />
         <Route path="/contacts" element={<Contacts />} />
         <Route path='/' element={
           <>
-            <Rooms roomsArray={roomsArray}/>
+            <Rooms roomsArray={roomsArray} onRoomClick={handleOpenRoomDescription}/>
             <Equals />
             <Info />
             <Contacts />
