@@ -5,7 +5,7 @@ import Registration from '../Registration/Registration';
 
 function Banner(props) {
   return (
-    <section className="banner" ref={props.bannerRef}>
+    <section className="banner">
       <div className="banner__container">
         <PhoneLine />
         <Header />

@@ -1,12 +1,13 @@
+import { useNavigate } from "react-router-dom";
+
 function Room(props) {
-
-  function handleRoomClick() {
-    props.onRoomClick(props.room);
-    console.log(props.room)
-  }
-
+  const navigate = useNavigate();
+  
   return (
-    <div className="room" onClick={handleRoomClick} id={props.room._id}>
+    <div className="room" onClick={() => {
+      navigate('/rooms/' + props.room._id)
+      return;
+    }}>
       <div className='room__link'>
         <div className="room__container">
           <img className="room__image" src={props.room.img} alt={props.room.title} />

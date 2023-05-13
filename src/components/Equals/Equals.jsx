@@ -1,4 +1,4 @@
-import photo from '../../images/Photos/lux-1-room/2.jpg'
+import photo from '../../images/Photos/lux-1-room/2.jpeg'
 
 function Equals() {
   return (

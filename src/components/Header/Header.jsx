@@ -16,7 +16,7 @@ function Header() {
         <div className='header__links'>
           <NavLink to="/" className='header__link'>Главная</NavLink>
           <NavLink to="/photo" className='header__link'>Фотогалерея</NavLink>
-          <NavLink to='/fund' className='header__link'>Номерной фонд</NavLink>
+          <NavLink to='/rooms' className='header__link'>Номерной фонд</NavLink>
           <p className='header__link header__link_disable'>Бронирование</p>
           <NavLink to='/contacts' className='header__link'>Контакты</NavLink>
         </div>

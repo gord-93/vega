@@ -8,7 +8,7 @@ function Rooms(props) {
       </h1>
       <div className="rooms__container">
         {props.roomsArray.map((room)=> {
-          return(<Room room={room} key={room._id} onRoomClick={props.onRoomClick}/>)
+          return(<Room room={room} key={room._id} />)
         })}
       </div>
     </section>

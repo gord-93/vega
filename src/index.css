@@ -15,6 +15,7 @@
 @import url(./components/RoomDescription/RoomDescription.css);
 @import url(./components/PhotoPopup/PhotoPopup.css);
 @import url(./components/Review/Review.css);
+@import url(./components/NotFound/NotFound.css);
 
 body {
   display: flex;
