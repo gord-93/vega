@@ -1,20 +1,23 @@
 {
   "files": {
-    "main.css": "/vega/static/css/main.df05fc78.css",
-    "main.js": "/vega/static/js/main.13f3c73d.js",
+    "main.css": "/vega/static/css/main.caad5626.css",
+    "main.js": "/vega/static/js/main.b38df08a.js",
     "static/js/787.c2fe319f.chunk.js": "/vega/static/js/787.c2fe319f.chunk.js",
     "static/media/DSC_3245.jpeg": "/vega/static/media/DSC_3245.887cc78f5f8d7f1c4ae5.jpeg",
-    "static/media/1.jpg": "/vega/static/media/1.d5d522f7d3b1b3b03ed5.jpg",
-    "static/media/1.JPG": "/vega/static/media/1.c8eef146d90b2291e486.JPG",
-    "static/media/2.jpg": "/vega/static/media/2.5a8517d5110e5aca09bd.jpg",
-    "static/media/1.jpeg": "/vega/static/media/1.c77aa291acd589ed13b8.jpeg",
+    "static/media/4.jpeg": "/vega/static/media/4.6c21f463bd668e0b4507.jpeg",
+    "static/media/2.jpeg": "/vega/static/media/2.1df3e050d15af555b7ae.jpeg",
+    "static/media/6.jpeg": "/vega/static/media/6.5db52dadda83669b6849.jpeg",
+    "static/media/3.jpeg": "/vega/static/media/3.f8bdb66148f84c4d8e0d.jpeg",
+    "static/media/5.jpeg": "/vega/static/media/5.08525cec2e9cc614425f.jpeg",
+    "static/media/1.jpeg": "/vega/static/media/1.d5d522f7d3b1b3b03ed5.jpeg",
+    "static/media/7.jpeg": "/vega/static/media/7.62ca35267cd5d9808612.jpeg",
+    "static/media/8.jpeg": "/vega/static/media/8.61ec9098ec33495f33d9.jpeg",
+    "static/media/9.jpeg": "/vega/static/media/9.779c54e5454369f60b19.jpeg",
     "static/media/Inter-Medium.woff?v=3.13": "/vega/static/media/Inter-Medium.cc6a88688869161eb836.woff",
     "static/media/Inter-Black.woff?v=3.13": "/vega/static/media/Inter-Black.16792010d318c2904562.woff",
     "static/media/Inter-Regular.woff?v=3.13": "/vega/static/media/Inter-Regular.fc49d131f795b4d48f26.woff",
     "static/media/room-lux-2x.png": "/vega/static/media/room-lux-2x.9acd9319aab9fdcf00a7.png",
-    "static/media/room-wending-half-lux.png": "/vega/static/media/room-wending-half-lux.d30aab43c14c569402ac.png",
     "static/media/Inter-Medium.woff2?v=3.13": "/vega/static/media/Inter-Medium.5b53c519b3184a74a98c.woff2",
-    "static/media/room-wending-lux.png": "/vega/static/media/room-wending-lux.bde708eac3cad8dbe874.png",
     "static/media/Inter-Black.woff2?v=3.13": "/vega/static/media/Inter-Black.23eb804eb49e365fa2f1.woff2",
     "static/media/Inter-Regular.woff2?v=3.13": "/vega/static/media/Inter-Regular.2505c0d4b34ffca98f8f.woff2",
     "static/media/room-standard-2x.png": "/vega/static/media/room-standard-2x.6c3159acccecbfa20026.png",
@@ -25,12 +28,12 @@
     "static/media/preview-button.svg": "/vega/static/media/preview-button.76ca5678e1050a507fb3.svg",
     "static/media/next-button.svg": "/vega/static/media/next-button.118acd33fc307257249d.svg",
     "static/media/calendare.svg": "/vega/static/media/calendare.f12f01c462e065c19507595280064b3d.svg",
-    "main.df05fc78.css.map": "/vega/static/css/main.df05fc78.css.map",
-    "main.13f3c73d.js.map": "/vega/static/js/main.13f3c73d.js.map",
+    "main.caad5626.css.map": "/vega/static/css/main.caad5626.css.map",
+    "main.b38df08a.js.map": "/vega/static/js/main.b38df08a.js.map",
     "787.c2fe319f.chunk.js.map": "/vega/static/js/787.c2fe319f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.df05fc78.css",
-    "static/js/main.13f3c73d.js"
+    "static/css/main.caad5626.css",
+    "static/js/main.b38df08a.js"
   ]
 }
