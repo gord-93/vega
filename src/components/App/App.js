@@ -1,6 +1,6 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import { useState } from 'react';
+import { useState, useRef } from 'react';
 import Banner from '../Banner/Banner';
 import Contacts from '../Contacts/Contacts';
 import Footer from '../Footer/Footer';
@@ -16,6 +16,7 @@ import './App.css';
 
 
 function App() {
+  const headerRef = useRef(null);
   const [popupIsOpen, changePopupIsOpen] = useState(false);
   const [popupInfo, changePopupInfo] = useState({  
     img: '#',
@@ -38,19 +39,29 @@ function App() {
     })
   };
 
+  const scrollToElem = () => {
+    window.scrollTo({
+      top: headerRef.current.clientHeight + 1,
+      left: 0,
+      behavior: 'smooth'
+    })
+  }
+
   return (
     <div className='app'>
-      <Banner />
       <Routes>
         <Route exact path='/' element={
           <>
-            <Rooms roomsArray={roomsArray} />
+            <Banner headerRef={headerRef} scrollToElem={scrollToElem} />
+            <Rooms roomsArray={roomsArray} scrollToElem={scrollToElem} />
             <Equals />
             <Info />
             <Contacts />
+            <Footer />
           </>
         } />
         <Route exact path="/photo" element={<>
+          <Banner headerRef={headerRef} scrollToElem={scrollToElem} />
           <Gallery 
             photosArray={roomsArray}
             openPopup={openPopup}
@@ -62,13 +73,24 @@ function App() {
             handlerChangePopupInfo={handlerChangePopupInfo}
             closePopup={closePopup}
           /> 
+          <Footer />
         </>}/>
-        <Route exact path="/rooms/:id" element={<RoomDescription />} />
-        <Route exact path="/rooms" element={<Rooms roomsArray={roomsArray} />}/>
-        <Route exact path="/contacts" element={<Contacts />} />
+        <Route exact path="/rooms/:urlTitle" element={<>
+          <RoomDescription headerRef={headerRef} scrollToElem={scrollToElem}/>
+          <Footer />
+        </>} />
+        <Route exact path="/rooms" element={<>
+          <Banner headerRef={headerRef} scrollToElem={scrollToElem} />
+          <Rooms roomsArray={roomsArray} scrollToElem={scrollToElem} />
+          <Footer />
+          </>}/>
+        <Route exact path="/contacts" element={<>
+          <Banner headerRef={headerRef} scrollToElem={scrollToElem} />
+          <Contacts />
+          <Footer />
+          </>} />
         <Route path='*' element={<NotFound />} />
       </Routes>
-      <Footer />
     </div>
   );
 }

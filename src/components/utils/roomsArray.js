@@ -46,6 +46,7 @@ import luxtwo8 from '../../images/Photos/lux/8.jpeg';
 export const roomsArray = [
   {
     title: 'СТАНДАРТ двухместный',
+    urlTitle: 'standardtwo',
     img: standardTwo,
     price: 2600,
     place: 'Размещение на 2 или 3 этаже',
@@ -72,6 +73,7 @@ export const roomsArray = [
 
   {
     title: 'СТАНДАРТ трехместный',
+    urlTitle: 'standardthree',
     img: standardRoomThree,
     price: 4000,
     place: 'Размещение на 2 или 3 этаже',
@@ -92,6 +94,7 @@ export const roomsArray = [
 
   {
     title: 'ПОЛУЛЮКС однокомнатный',
+    urlTitle: 'halfluxone',
     img: halfLuxOne,
     price: 3500,
     place: 'Размещение на 1 или 2 этаже',
@@ -116,6 +119,7 @@ export const roomsArray = [
 
   {
     title: 'ПОЛУЛЮКС улучшенный',
+    urlTitle: 'halfluxsuperior',
     img: supperior,
     price: 4000,
     place: 'Размещение на 1  или  3 этаже',
@@ -135,6 +139,7 @@ export const roomsArray = [
 
   {
     title: 'ПОЛУЛЮКС двухкомнатный',
+    urlTitle: 'halfluxtwo',
     img: halfLuxTwo,
     price: 5000,
     place: 'Размещение на 3 этаже',
@@ -157,6 +162,7 @@ export const roomsArray = [
 
   {
     title: 'ЛЮКС однокомнатный',
+    urlTitle: 'luxone',
     img: luxOne,
     price: 5000,
     place: 'Размещение на 1 этаже',
@@ -178,6 +184,7 @@ export const roomsArray = [
 
   {
     title: 'ЛЮКС двухкомнатный',
+    urlTitle: 'luxtwo',
     img: luxTwo,
     price: 6000,
     place: 'Размещение на 2 этаже',

@@ -5,7 +5,8 @@ function Room(props) {
   
   return (
     <div className="room" onClick={() => {
-      navigate('/rooms/' + props.room._id)
+      navigate('/rooms/' + props.room.urlTitle);
+      props.scrollToElem();
       return;
     }}>
       <div className='room__link'>

@@ -5,10 +5,10 @@ import Registration from '../Registration/Registration';
 
 function Banner(props) {
   return (
-    <section className="banner">
+    <section className="banner" ref={props.headerRef} >
       <div className="banner__container">
         <PhoneLine />
-        <Header />
+        <Header scrollToElem={props.scrollToElem} />
         <div className='banner__text-container'>
           <h2 className='banner__title'>Уютный отель в Наро-Фоминске</h2>
           <ul className='banner__ul'>

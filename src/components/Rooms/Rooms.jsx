@@ -8,7 +8,7 @@ function Rooms(props) {
       </h1>
       <div className="rooms__container">
         {props.roomsArray.map((room)=> {
-          return(<Room room={room} key={room._id} />)
+          return(<Room room={room} key={room._id} scrollToElem={props.scrollToElem} />)
         })}
       </div>
     </section>
