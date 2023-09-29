@@ -17,7 +17,6 @@ function Header(props) {
           <NavLink to="/" className='header__link' onClick={props.scrollToElem}>Главная</NavLink>
           <NavLink to="/photo" className='header__link' onClick={props.scrollToElem}>Фотогалерея</NavLink>
           <NavLink to='/rooms' className='header__link' onClick={props.scrollToElem}>Номерной фонд</NavLink>
-          <p className='header__link header__link_disable' onClick={props.scrollToElem}>Бронирование</p>
           <NavLink to='/contacts' className='header__link' onClick={props.scrollToElem}>Контакты</NavLink>
         </div>
       </div>

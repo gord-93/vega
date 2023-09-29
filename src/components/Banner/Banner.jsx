@@ -1,7 +1,6 @@
 // import logo from '../../images/logo-place-banner.svg';
 import Header from '../Header/Header';
 import PhoneLine from '../PhoneLine/PhoneLine';
-import Registration from '../Registration/Registration';
 
 function Banner(props) {
   return (
@@ -18,7 +17,6 @@ function Banner(props) {
             <li className='banner__li'>Бесплатный Wi-Fi</li>
           </ul>
         </div>
-        <Registration />
       </div>
     </section>
   )
