@@ -11,7 +11,7 @@ function PhotoPopup(props) {
       <button
         className={`photo-popup__preview-button ${photoIndex === 0 && `photo-popup__hidden-button`}`}
         onClick={() => props.handlerChangePopupInfo(props.photosArray[photoIndex - 1])} />
-      <img className='photo-popup__image' src={props.popupInfo.img} alt={props.popupInfo.title} />
+      <img className='photo-popup__image' src={props.popupInfo} alt={props.popupInfo._id} />
       <button 
         className={`photo-popup__next-button ${photoIndex === props.photosArray.length - 1 && `photo-popup__hidden-button`}`}
         onClick={() => props.handlerChangePopupInfo(props.photosArray[photoIndex + 1])} />

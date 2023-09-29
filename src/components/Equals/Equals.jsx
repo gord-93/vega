@@ -1,4 +1,5 @@
-import photo from '../../images/Photos/lux-1-room/2.jpeg'
+import luxPhoto from '../../images/Photos/lux-1-room/2.jpeg';
+import hallPhoto from '../../images/Photos/DSC_8365.JPG';
 
 function Equals() {
   return (
@@ -19,10 +20,10 @@ function Equals() {
             <li className="equals__elem"><p className='equals__elem-text'>Оплата за наличный и безналичный расчет</p></li>
           </ul>
         </div>
-        <img className="equals__photo" src={photo} alt="number" />
+        <img className="equals__photo" src={hallPhoto} alt="number" />
       </div>
       <div className='equals__container'>
-        <img className="equals__photo" src={photo} alt="number" />
+        <img className="equals__photo" src={luxPhoto} alt="number" />
         <div className="equals__info">
           <h2 className="equals__subtitle">
             Комфортно для отдыха и проживания

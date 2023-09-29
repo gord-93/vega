@@ -42,6 +42,9 @@ import luxtwo5 from '../../images/Photos/lux/5.jpeg';
 import luxtwo6 from '../../images/Photos/lux/6.jpeg';
 import luxtwo7 from '../../images/Photos/lux/7.jpeg';
 import luxtwo8 from '../../images/Photos/lux/8.jpeg';
+import hall1 from '../../images/Photos/3BDC2425-B774-4318-B153-9CA5A956364E (1).jpeg';
+import hall2 from '../../images/Photos/DSC_8365.JPG';
+import street from '../../images/Photos/DSC_3245.jpeg';
 
 export const roomsArray = [
   {
@@ -207,4 +210,47 @@ export const roomsArray = [
       ],
     _id: '7',
   },
+]
+
+export const galleryPhotos = [
+  street,
+  hall1,
+  hall2,
+  standardtwo1,
+  standardtwo2,
+  standardtwo3,
+  standardtwo4,
+  standardtwo5,
+  standardtwo6,
+  standardtwo7,
+  standardtwo8,
+  standardtwo9,
+  standardthree1,
+  standardthree2,
+  halfluxone1,
+  halfluxone2,
+  halfluxone3,
+  halfluxone4,
+  halfluxone5,
+  halfluxone6,
+  halfluxone7,
+  halfluxmod1,
+  halfluxmod2,
+  halfluxtwo1,
+  halfluxtwo2,
+  halfluxtwo3,
+  halfluxtwo4,
+  halfluxtwo5,
+  luxone1,
+  luxone2,
+  luxone3,
+  luxone4,
+  luxtwo1,
+  luxtwo2,
+  luxtwo3,
+  luxtwo4,
+  luxtwo5,
+  luxtwo6,
+  luxtwo7,
+  luxtwo8
 ]

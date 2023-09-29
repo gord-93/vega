@@ -11,7 +11,7 @@ import RoomDescription from '../RoomDescription/RoomDescription';
 import Equals from '../Equals/Equals';
 import PhotoPopup from '../PhotoPopup/PhotoPopup';
 import NotFound from '../NotFound/NotFound';
-import { roomsArray } from '../utils/roomsArray';
+import { roomsArray, galleryPhotos } from '../utils/roomsArray';
 import './App.css';
 
 
@@ -63,11 +63,11 @@ function App() {
         <Route exact path="/photo" element={<>
           <Banner headerRef={headerRef} scrollToElem={scrollToElem} />
           <Gallery 
-            photosArray={roomsArray}
+            photosArray={galleryPhotos}
             openPopup={openPopup}
           />
           <PhotoPopup 
-            photosArray={roomsArray}
+            photosArray={galleryPhotos}
             popupInfo={popupInfo}
             popupIsOpen={popupIsOpen}
             handlerChangePopupInfo={handlerChangePopupInfo}

@@ -8,7 +8,7 @@ function Gallery(props) {
         {props.photosArray.map((photo) => {
           return (
             <div className="gallery__photo" key={photo._id} onClick={() => props.openPopup(photo)}>
-              <img className="gallery__photo-image" src={photo.img} alt={photo.title} />
+              <img className="gallery__photo-image" src={photo} alt={photo._id} />
             </div>
           )
         })}
