@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/vega/static/css/main.caad5626.css",
-    "main.js": "/vega/static/js/main.b38df08a.js",
+    "main.css": "/vega/static/css/main.631da829.css",
+    "main.js": "/vega/static/js/main.2640ffec.js",
     "static/js/787.c2fe319f.chunk.js": "/vega/static/js/787.c2fe319f.chunk.js",
     "static/media/DSC_3245.jpeg": "/vega/static/media/DSC_3245.887cc78f5f8d7f1c4ae5.jpeg",
     "static/media/4.jpeg": "/vega/static/media/4.6c21f463bd668e0b4507.jpeg",
@@ -12,6 +12,8 @@
     "static/media/1.jpeg": "/vega/static/media/1.d5d522f7d3b1b3b03ed5.jpeg",
     "static/media/7.jpeg": "/vega/static/media/7.62ca35267cd5d9808612.jpeg",
     "static/media/8.jpeg": "/vega/static/media/8.61ec9098ec33495f33d9.jpeg",
+    "static/media/DSC_8365.JPG": "/vega/static/media/DSC_8365.ca680dd933eadec8ffc9.JPG",
+    "static/media/3BDC2425-B774-4318-B153-9CA5A956364E (1).jpeg": "/vega/static/media/3BDC2425-B774-4318-B153-9CA5A956364E (1).dfaa6dc87ac5a4446e76.jpeg",
     "static/media/9.jpeg": "/vega/static/media/9.779c54e5454369f60b19.jpeg",
     "static/media/Inter-Medium.woff?v=3.13": "/vega/static/media/Inter-Medium.cc6a88688869161eb836.woff",
     "static/media/Inter-Black.woff?v=3.13": "/vega/static/media/Inter-Black.16792010d318c2904562.woff",
@@ -21,19 +23,27 @@
     "static/media/Inter-Black.woff2?v=3.13": "/vega/static/media/Inter-Black.23eb804eb49e365fa2f1.woff2",
     "static/media/Inter-Regular.woff2?v=3.13": "/vega/static/media/Inter-Regular.2505c0d4b34ffca98f8f.woff2",
     "static/media/room-standard-2x.png": "/vega/static/media/room-standard-2x.6c3159acccecbfa20026.png",
-    "static/media/test.png": "/vega/static/media/test.2d820f95c72608dcc4c4.png",
+    "static/media/shower.svg": "/vega/static/media/shower.a300893ea7ee5775aac2a06d1f71b1a8.svg",
+    "static/media/kitchen.svg": "/vega/static/media/kitchen.bbaf44db1e44fcda734de453a6ee8525.svg",
+    "static/media/everytime.svg": "/vega/static/media/everytime.d4441683495f099c60df1b22e250f06c.svg",
     "static/media/map.svg": "/vega/static/media/map.c5f44dc3c7247547fcd44cb4b6a4fd2d.svg",
+    "static/media/reserved.svg": "/vega/static/media/reserved.f2f2626e4c796bd38430cc2ddd05c251.svg",
+    "static/media/delivery.svg": "/vega/static/media/delivery.b3a55b6ca4950f90335ba2311fed0a03.svg",
+    "static/media/parking.svg": "/vega/static/media/parking.942b1b9408e79d675397b152f05c90b4.svg",
+    "static/media/laundry.svg": "/vega/static/media/laundry.51ea6a313c9d2e60eceea1a5e8ddfc5b.svg",
+    "static/media/station.svg": "/vega/static/media/station.bf1f99d9edc2e04172319a2c6d5e3604.svg",
     "static/media/close-button.svg": "/vega/static/media/close-button.53763039c47866166500.svg",
+    "static/media/sofa.svg": "/vega/static/media/sofa.91f74cd7c4270cc7ab41aa62c039acc7.svg",
     "index.html": "/vega/index.html",
     "static/media/preview-button.svg": "/vega/static/media/preview-button.76ca5678e1050a507fb3.svg",
     "static/media/next-button.svg": "/vega/static/media/next-button.118acd33fc307257249d.svg",
     "static/media/calendare.svg": "/vega/static/media/calendare.f12f01c462e065c19507595280064b3d.svg",
-    "main.caad5626.css.map": "/vega/static/css/main.caad5626.css.map",
-    "main.b38df08a.js.map": "/vega/static/js/main.b38df08a.js.map",
+    "main.631da829.css.map": "/vega/static/css/main.631da829.css.map",
+    "main.2640ffec.js.map": "/vega/static/js/main.2640ffec.js.map",
     "787.c2fe319f.chunk.js.map": "/vega/static/js/787.c2fe319f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.caad5626.css",
-    "static/js/main.b38df08a.js"
+    "static/css/main.631da829.css",
+    "static/js/main.2640ffec.js"
   ]
 }
