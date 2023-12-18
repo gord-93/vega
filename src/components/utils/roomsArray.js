@@ -51,7 +51,7 @@ export const roomsArray = [
     title: 'СТАНДАРТ двухместный',
     urlTitle: 'standardtwo',
     img: standardTwo,
-    price: 2600,
+    price: 2700,
     place: 'Размещение на 2 или 3 этаже',
     about:
       [

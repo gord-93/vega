@@ -13,7 +13,7 @@ function Banner(props) {
           <ul className='banner__ul'>
             <li className='banner__li'>Внимательный и доброжелательный персонал</li>
             <li className='banner__li'>Удобное расположение вблизи Ж/Д вокзала</li>
-            <li className='banner__li'>Номера от 2600&#x20bd; до 5000&#x20bd;</li>
+            <li className='banner__li'>Номера от 2700&#x20bd; до 6000&#x20bd;</li>
             <li className='banner__li'>Бесплатный Wi-Fi</li>
           </ul>
         </div>

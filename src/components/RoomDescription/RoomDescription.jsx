@@ -39,7 +39,6 @@ function RoomDescription(props) {
           {room.photos.map((photo) => <li className="room-description__photo-elem"><img className="room-description__photo" src={photo} alt="number" /></li>)}
         </ul>
       </section>
-      <Footer />
     </> : <NotFound />
   )
 }
