@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import { useState, useRef } from 'react';
 import Banner from '../Banner/Banner';
 import Contacts from '../Contacts/Contacts';
